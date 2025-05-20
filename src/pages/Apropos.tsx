@@ -83,7 +83,7 @@ export default function Apropos() {
 <CardMethod
   title="Suivi & tranquillité"
   text="Vous recevez votre facture, vos garanties, et nous restons disponibles pour toute question."
-  img="/images/suivi-icon.webp"
+  img="/images/personne-payant-la-facture-dans-un-restaurant-utilisant-la-technologie-nfc.webp"
   alt="Suivi"
 />
 
