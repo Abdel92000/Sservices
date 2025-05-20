@@ -1,0 +1,50 @@
+/* src/assets/css/Footer.module.css */
+.footer {
+  /* background-color: #0d1b2a; */
+      background-color: var(--color-primary);
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.footerContent {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.localisation{
+    color: white;
+}
+.footerContent a {
+  color: #ffa500;
+
+  text-decoration: none;
+}
+
+.footerContent a:hover {
+  text-decoration: underline;
+}
+
+.socialLink {
+  margin-top: 1rem;
+  display: inline-block;
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+.socialLink:hover {
+  color: #ffa500;
+  transform: scale(1.1);
+}
+
+.logoFooter{
+    width: 90px;
+    height: auto;
+
+}
+
+.footerContent p:last-child {
+  font-size: 0.85rem;
+  color: #ccc;
+}

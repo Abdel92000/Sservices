@@ -1,0 +1,46 @@
+.contactFormSection {
+  max-width: 700px;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.contactForm input,
+.contactForm select,
+.contactForm textarea {
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contactForm textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+
+
+.contactForm button {
+  background-color: #ff6b00;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contactForm button:hover {
+  background-color: #e55a00;
+}

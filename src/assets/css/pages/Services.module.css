@@ -1,0 +1,39 @@
+.servicesGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  justify-content: center; 
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.servicesRow {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.groupTitle{
+    text-align: center;
+  color: #ff6b00;
+    margin: 4rem 0 1.5rem;
+
+}
+
+@media (max-width: 1200px) {
+  .servicesGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .servicesGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .servicesGrid {
+    grid-template-columns: 1fr;
+  }
+}
