@@ -50,7 +50,7 @@ export default function Apropos() {
          <div className={styles.work}>
           {/* titre de la carte avec icone */}
          <div className={styles.headercard}>
-          <img src="/public/images/localisation.webp" alt="" />
+          <img src="/images/localisation.webp" alt="" />
           <h2> Nous intervenons sur quel secteur ? </h2>
          </div>
 
