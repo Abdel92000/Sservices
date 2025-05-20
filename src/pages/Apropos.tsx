@@ -69,14 +69,14 @@ export default function Apropos() {
 <CardMethod
   title="Vous nous contactez"
   text="Un simple appel ou une demande via notre formulaire, et on vous propose un devis gratuit."
-  img="/public/images/3250.webp"
+  img="/images/3250.webp"
   alt="Contact"
 />
 
 <CardMethod
   title="Intervention sur place"
   text="Un serrurier arrive en 30 minutes avec tout le matériel nécessaire pour agir immédiatement."
-  img="/public/images/portrait-man-room-opening-door-with-hands-gloves.webp"
+  img="/images/portrait-man-room-opening-door-with-hands-gloves.webp"
   alt="Intervention"
 />
 
