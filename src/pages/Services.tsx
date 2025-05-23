@@ -101,12 +101,7 @@ export default function Services() {
     description="Installation de caméras de sécurité intérieures et extérieures."
     image="/images/camera.webp"
   />
-  <ServiceCard
-    icon="🛡️"
-    title="Sécurisation après effraction"
-    description="Réparation rapide après tentative de cambriolage."
-    image="/images/securisation.webp"
-  />
+ 
 </div>
     </>
 

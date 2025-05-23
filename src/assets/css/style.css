@@ -1,7 +1,6 @@
 /* Import de la font */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 
-/* Variables globales */
 :root {
   --font-main: 'Montserrat', sans-serif;
 
@@ -13,7 +12,6 @@
   --color-white: #ffffff;
 }
 
-/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -36,7 +34,6 @@ body {
 main {
   flex: 1;
 }
-/* Titres */
 h1, h2, h3 {
   color: var(--color-primary);
   font-weight: 600;
@@ -54,13 +51,11 @@ h3 {
   font-size: 1.5rem;
 }
 
-/* Paragraphes */
 p {
   font-size: 1rem;
   color: var(--color-muted);
 }
 
-/* Liens */
 a {
   color: var(--color-accent);
   text-decoration: none;
@@ -70,7 +65,6 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Bouton principal */
 .btn-primary {
   background-color: var(--color-accent);
   color: white;
@@ -87,7 +81,6 @@ a:hover {
   background-color: #e55e00;
 }
 
-/* Responsive : ajustements mobiles */
 @media (max-width: 768px) {
   h1 {
     font-size: 1.8rem;

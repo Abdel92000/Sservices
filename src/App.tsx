@@ -5,11 +5,15 @@ import Footer from './components/Footer';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
 import Apropos from './pages/Apropos';
+import AccueilHome from './pages/AccueilHome';
+import ScrollToTop from './components/ScrollToTop';
 // import Contact from './pages/Contact';
 
 function App() {
   return (
     <BrowserRouter>
+        <ScrollToTop/>
+
     <div className='sitewrapper'>
       <Header  />
       <main>
@@ -18,6 +22,7 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/apropos" element={<Apropos />} />
+          <Route path="/test" element={<AccueilHome />} />
         </Routes>
       </main>
       <Footer/>
