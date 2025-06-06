@@ -1,5 +1,7 @@
 
+import { motion } from "framer-motion";
 import styles from "../assets/css/pages/Apropos.module.css";
+import styleServices from "../assets/css/pages/Services.module.css";
 import CardMethod from "../components/apropos/CardMethod";
 export default function Apropos() {
 
@@ -92,14 +94,34 @@ export default function Apropos() {
 //     </section>
 
 
-    <section className={styles.section}>
-      <div className={styles.hero}>
+    <section className={styleServices.section}>
+      {/* <div className={styles.hero}>
         <h1>À propos de S Services</h1>
         <p>
           Depuis plus de 10 ans, notre mission est simple : garantir votre sécurité
           avec une réactivité maximale, une transparence totale et un savoir-faire éprouvé.
         </p>
-      </div>
+      </div> */}
+      <section className={styleServices.heroSection}>
+        <img
+          src="/images/ImageApropos.webp"
+          alt="Serrurerie"
+          className={styleServices.heroImage}
+        />
+        <div className={styleServices.heroOverlay}>
+          <motion.h1
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+            className={styleServices.heroTitle}
+          >
+            À propos de S Services
+          </motion.h1>
+          <p className={styleServices.heroSubtitle}>
+            Depuis plus de 10 ans, nous mettons la sécurité au cœur de nos priorités.
+          </p>
+        </div>
+      </section>
 
       <div className={styles.story}>
         <h2>Notre parcours</h2>
