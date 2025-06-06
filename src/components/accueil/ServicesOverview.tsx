@@ -1,5 +1,5 @@
+import { Link } from "react-router-dom";
 import styles from "../../assets/css/ServicesOverview.module.css";
-
 export default function ServicesOverview() {
   return (
     <section className={styles.overview}>
@@ -20,9 +20,12 @@ export default function ServicesOverview() {
           <li>🚪 Installation de portes blindées</li>
           <li>📱 Mise en place de serrures électroniques et digicodes</li>
         </ul>
-        <a href="/services" className={styles.button}>
+        {/* <a href="/services" className={styles.button}>
           👉 Voir tous les services
-        </a>
+        </a> */}
+        <Link to="/services" className={styles.button}>
+          👉 Voir tous les services
+        </Link>
       </div>
     </section>
   );
