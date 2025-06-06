@@ -20,7 +20,7 @@ export default function ServicesOverview() {
           <li>🚪 Installation de portes blindées</li>
           <li>📱 Mise en place de serrures électroniques et digicodes</li>
         </ul>
-        <a href="services" className={styles.button}>
+        <a href="/services" className={styles.button}>
           👉 Voir tous les services
         </a>
       </div>
