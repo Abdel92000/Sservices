@@ -120,13 +120,13 @@ export default function Apropos() {
           </div>
 
           <div className={styles.commitment}>
-            <img src="../../public/images/calculatrice.webp" alt="Tarifs transparents" />
+            <img src="/images/calculatrice.webp" alt="Tarifs transparents" />
             <h3>Tarifs transparents</h3>
             <p>Aucun frais caché. Vous recevez un devis clair avant toute intervention.</p>
           </div>
 
           <div className={styles.commitment}>
-            <img src="../../public/images/assitanteClient.webp" alt="Suivi humain" />
+            <img src="/images/assitanteClient.webp" alt="Suivi humain" />
             <h3>Suivi humain</h3>
             <p>Une question ? Une demande après intervention ? On vous répond rapidement.</p>
           </div>
